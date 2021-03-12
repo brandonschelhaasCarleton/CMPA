@@ -222,3 +222,5 @@ semilogy(Vin, abs(Inn_noNoise), Vin, abs(Inn_Noise))
 title('Calculated and Experimental Current - Semilog');
 legend({'Calculated', 'Experimental Noise'}, 'Location', 'north');
 xlabel('Vin [V]'); ylabel('Current [mA]');
+
+% It's clear that the neural network does a great job in essentially recreating the ideal equation shown in Fig 1
